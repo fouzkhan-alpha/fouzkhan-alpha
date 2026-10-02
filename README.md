@@ -1,1 +1,146 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KCjxpbWcgc3JjPSJodHRwczovL2NhcHN1bGUtcmVuZGVyLnZlcmNlbC5hcHAvYXBpP3R5cGU9d2F2aW5nJmNvbG9yPTA6MGQxMTE3LDUwOjAwZmY4OCwxMDA6MDBjY2ZmJmhlaWdodD0yMjAmc2VjdGlvbj1oZWFkZXImdGV4dD1NVUhBTU1BRCUyMEZPVVolMjBLSEFOJmZvbnRTaXplPTQyJmZvbnRDb2xvcj1mZmZmZmYmYW5pbWF0aW9uPWZhZGVJbiZmb250QWxpZ25ZPTM4JmRlc2M9QUklMjAlMkYlMjBNTCUyMEVuZ2luZWVyJTIwJUUyJTgwJUEyJTIwSG9sb2dyYXBoaWMlMjBXb3Jrc3BhY2UmZGVzY0FsaWduWT01OCZkZXNjU2l6ZT0xOCIgLz4KCiMjIyBGT1VaX0NPUkVfRU5HSU5FX1YxLjE3IOKAlCBTVEFUVVM6IE9OTElORSDwn5+iCgohW1Byb2ZpbGUgVmlld3NdKGh0dHBzOi8va29tYXJldi5jb20vZ2hwdmMvP3VzZXJuYW1lPWZvdXpraGFuLWFscGhhJmNvbG9yPTAwZmY4OCZzdHlsZT1mbGF0LXNxdWFyZSZsYWJlbD1QUk9GSUxFK1NDQU5TKQohW0ZvbGxvd2Vyc10oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9naXRodWIvZm9sbG93ZXJzL2ZvdXpraGFuLWFscGhhP2NvbG9yPTAwZmY4OCZzdHlsZT1mbGF0LXNxdWFyZSZsYWJlbD1GT0xMT1dFUlMpCgpbIVtUeXBpbmcgU1ZHXShodHRwczovL3JlYWRtZS10eXBpbmctc3ZnLmhlcm9rdWFwcC5jb20/Zm9udD1GaXJhK0NvZGUmc2l6ZT0xOCZkdXJhdGlvbj0yODAwJnBhdXNlPTEwMDAmY29sb3I9MDBGRjg4JmNlbnRlcj10cnVlJnZDZW50ZXI9dHJ1ZSZ3aWR0aD02NTAmbGluZXM9Y29tcGlsaW5nX2FnZW50aWNfbW9kdWxlcygpLi4uO2luamVjdGluZ19ncmFwaGljX29yYnNfaW50ZXJmYWNlLi4uO2xvYWRpbmdfbmV1cmFsX3N1YnN5c3RlbXMuLi47U1lTVEVNK0NPTVBJTElORytTVUNDRVNTRlVMTFk7d2VsY29tZV90b190aGVfY29nbml0aXZlX2NvcmUpXShodHRwczovL2dpdC5pby90eXBpbmctc3ZnKQoKYGBgYmFzaAo+IHdob2FtaQptdWhhbW1hZF9mb3V6X2toYW4gLS1lbmdpbmVlciAtLWJ1aWxkZXIgLS1jcmVhdG9yCgo+IGNhdCBtaXNzaW9uLnR4dAoiU3VwZXJjaGFyZ2luZyBIdW1hbiBXb3JrZmxvd3MgdGhyb3VnaCBDb2duaXRpdmUgQXV0b21hdGlvbnMiCmBgYAoKPC9kaXY+CgotLS0KCiMjIPCfp6AgQ09HTklUSVZFIENPUkUKCmBTWVNfQURNSU5gIOKAlCBBSSBFbmdpbmVlciBidWlsZGluZyBoeXBlci1vcHRpbWl6ZWQgYXV0b25vbW91cyBhZ2VudHMgdGhhdCBhdXRvbWF0ZSBjb21wbGV4IGRldmVsb3BlciBhbmQgYnVzaW5lc3Mgd29ya2Zsb3dzLiBMTE1zLCBuZXVyYWwgaW50ZWdyYXRpb25zLCBnZW5lcmF0aXZlIG1vZGVscyDigJQgcHJvZHVjdGlvbi1ncmFkZSBhcmNoaXRlY3R1cmVzLgoK8J+OkyAqKkJTIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlKiog4oCUIFVuaXZlcnNpdHkgb2YgTGF5eWFoICgyMDI14oCTMjAyOSkK8J+TjSBMYXl5YWgsIFB1bmphYiwgUGFraXN0YW4gJm5ic3A7fCZuYnNwOyDwn46sIFZpZGVvIEVkaXRvciAmbmJzcDt8Jm5ic3A7IPCfk4ggQ3J5cHRvIFRyYWRlcgoKYGBgeWFtbArwn5StIHdvcmtpbmdfb246ICBVbHRyb24gRG93bmxvYWRlciB2NS54IOKAlCBzZWxmLWhlYWxpbmcgbXVsdGktcGxhdGZvcm0gZW5naW5lCvCfjLEgbGVhcm5pbmc6ICAgIEFkdmFuY2VkIExMTSBBZ2VudHMgwrcgUkFHIHBpcGVsaW5lcyDCtyBWZWN0b3IgRGF0YWJhc2VzCvCfka8gb3Blbl90bzogICAgIEFJL01MIGNvbGxhYm9yYXRpb25zICYgaW50ZXJuc2hpcHMK8J+SrCBhc2tfbWU6ICAgICAgUHl0aG9uIMK3IEFJIEFnZW50cyDCtyBWaWRlbyBFZGl0aW5nIMK3IEFyY2ggTGludXgK4pqhIGZ1bl9mYWN0OiAgICBCdWlsdCBhIDIwMC1wYWdlIEFyY2ggTGludXggYm9vayBmb3IgYSBmcmllbmQgaW4gb25lIG5pZ2h0CvCfjq8gZ29hbF8yMDI2OiAgIFNoaXAgcHJvZHVjdGlvbiBBSSB0b29scyArIGdyb3cgQW5hdG9teSBBcmNoaXRlY3QgdG8gMTBLIHN1YnMKYGBgCgotLS0KCiMjIOKaoSBDT1JFIENPTVBFVEVOQ0lFUwoKYGBgCkFydGlmaWNpYWwgSW50ZWxsaWdlbmNlICAgICAgIDkyJSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paRCk1hY2hpbmUgTGVhcm5pbmcgICAgICAgICAgICAgIDg4JSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paR4paRCkFnZW50aWMgRnJhbWV3b3JrcyAgICAgICAgICAgIDk1JSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paRClB5dGhvbiBFbmdpbmVlcmluZyAgICAgICAgICAgIDk0JSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paRCk5ldXJhbCBOZXR3b3JrcyAgICAgICAgICAgICAgIDg1JSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paR4paRCk5MUCAgICAgICAgICAgICAgICAgICAgICAgICAgIDkwJSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paRCkxMTSBGaW5lLVR1bmluZyAmIFByb21wdGluZyAgIDk2JSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paRClR5cGVTY3JpcHQgLyBSZWFjdCAgICAgICAgICAgIDg1JSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paR4paRCkFQSSBEZXNpZ24gJiBJbnRlZ3JhdGlvbiAgICAgIDkwJSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paRClZlY3RvciBEYXRhYmFzZXMgICAgICAgICAgICAgIDg3JSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paR4paRClZpZGVvIEVkaXRpbmcgJiBNb3Rpb24gICAgICAgIDkwJSAg4paI4paI4paI4paI4paI4paI4paI4paI4paI4paI4paR4paRCmBgYAoKLS0tCgojIyDwn5ug77iPIEFSU0VOQUwKCioqTGFuZ3VhZ2VzKioKIVtQeXRob25dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvUHl0aG9uLTM3NzZBQj9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289cHl0aG9uJmxvZ29Db2xvcj13aGl0ZSkKIVtKYXZhU2NyaXB0XShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0phdmFTY3JpcHQtRjdERjFFP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1qYXZhc2NyaXB0JmxvZ29Db2xvcj1ibGFjaykKIVtUeXBlU2NyaXB0XShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1R5cGVTY3JpcHQtMzE3OEM2P3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz10eXBlc2NyaXB0JmxvZ29Db2xvcj13aGl0ZSkKIVtDKytdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQysrLTAwNTk5Qz9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289Y3BsdXNwbHVzJmxvZ29Db2xvcj13aGl0ZSkKIVtTUUxdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvU1FMLTQ0NzlBMT9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289bXlzcWwmbG9nb0NvbG9yPXdoaXRlKQoKKipBSSAvIE1MKioKIVtUZW5zb3JGbG93XShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1RlbnNvckZsb3ctRkY2RjAwP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz10ZW5zb3JmbG93JmxvZ29Db2xvcj13aGl0ZSkKIVtQeVRvcmNoXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1B5VG9yY2gtRUU0QzJDP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1weXRvcmNoJmxvZ29Db2xvcj13aGl0ZSkKIVtPcGVuQ1ZdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvT3BlbkNWLTVDM0VFOD9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289b3BlbmN2JmxvZ29Db2xvcj13aGl0ZSkKIVtzY2lraXQtbGVhcm5dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2Uvc2Npa2l0X2xlYXJuLUY3OTMxRT9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289c2Npa2l0LWxlYXJuJmxvZ29Db2xvcj13aGl0ZSkKCioqVG9vbHMqKgohW0dpdF0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9HaXQtRjA1MDMyP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1naXQmbG9nb0NvbG9yPXdoaXRlKQohW0xpbnV4XShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0xpbnV4LUZDQzYyND9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289bGludXgmbG9nb0NvbG9yPWJsYWNrKQohW1ZTIENvZGVdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvVlNfQ29kZS0wMDdBQ0M/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPXZpc3VhbHN0dWRpb2NvZGUmbG9nb0NvbG9yPXdoaXRlKQohW1JlYWN0XShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1JlYWN0LTYxREFGQj9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289cmVhY3QmbG9nb0NvbG9yPWJsYWNrKQoKKipDcmVhdGl2ZSoqCiFbUHJlbWllcmUgUHJvXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1ByZW1pZXJlX1Byby05OTk5RkY/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPWFkb2JlcHJlbWllcmVwcm8mbG9nb0NvbG9yPXdoaXRlKQohW0FmdGVyIEVmZmVjdHNdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQWZ0ZXJfRWZmZWN0cy05OTk5RkY/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPWFkb2JlYWZ0ZXJlZmZlY3RzJmxvZ29Db2xvcj13aGl0ZSkKCi0tLQoKIyMg8J+agCBERVBMT1lFRCBNT0RVTEVTCgojIyMg8J+foiBVbHRyb24gRG93bmxvYWRlcgpNdWx0aS1wbGF0Zm9ybSB2aWRlbyBkb3dubG9hZGVyIChZb3VUdWJlLCBUaWtUb2ssIEluc3RhZ3JhbSkgd2l0aCBhICoqc2VsZi1oZWFsaW5nIGRvd25sb2FkIGVuZ2luZSoqIOKAlCBhZ2dyZXNzaXZlIGZvcm1hdCBmYWxsYmFjaywgU1FMaXRlIGNyZWF0b3Igc3lzdGVtLCBidWxrIHNjaGVkdWxlciwgYmlsaW5ndWFsIFVJLgo8YnI+YFB5dGhvbmAgYFB5U2lkZTZgIGB5dC1kbHBgIGBTUUxpdGVgIGBBcmlhMmNgIOKAlCAqKnY1LjQgU0hJUFBFRCoqIPCfk6YKCiMjIyDwn5+hIEFOUFIgR2F0ZSBBY2Nlc3MgU3lzdGVtCkF1dG9tYXRpYyBOdW1iZXIgUGxhdGUgKyBNYWtlL01vZGVsIFJlY29nbml0aW9uIGZvciBVbml2ZXJzaXR5IG9mIExheXlhaCDigJQgQ1BVLW9ubHkgWU9MTy1uYW5vICsgT3BlblZJTk8gcGlwZWxpbmUuCjxicj5gUHl0aG9uYCBgT3BlblZJTk9gIGBZT0xPYCBgT3BlbkNWYCDigJQgKipJTiBERVZFTE9QTUVOVCoqIPCflKcKCiMjIyDwn5S0IEFuYXRvbXkgQXJjaGl0ZWN0CkVkdWNhdGlvbmFsIFlvdVR1YmUgY2hhbm5lbCDigJQgYW5hdG9teSBTaG9ydHMgd2l0aCBBSSB2aXN1YWxzLCBtb3Rpb24gZWRpdGluZyBhbmQgdm9pY2VvdmVycy4gQXV0b21hdGVkIHByb2R1Y3Rpb24gcGlwZWxpbmUuCjxicj5gUHl0aG9uYCBgRkZtcGVnYCBgVFRTYCBgQUkgTWVkaWFgIOKAlCAqKkxJVkUqKiDilrbvuI8KCi0tLQoKIyMg8J+TnCBWRVJJRklFRCBTS0lMTFNFVFMKCnwgQ2VydGlmaWNhdGUgfCBJc3N1ZXIgfCBSZXN1bHQgfAp8LS0tLS0tLS0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLXwKfCBDbGF1ZGUgQ29kZSBpbiBBY3Rpb24gfCBBbnRocm9waWMgfCDinIUgfAp8IEFJIEZsdWVuY3kgZm9yIFN0dWRlbnRzIHwgQW50aHJvcGljIHwg4pyFIHwKfCBDUzEwNSDigJQgSW50cm8gdG8gUHl0aG9uIHwgU2F5bG9yIEFjYWRlbXkgfCA5Ni44NCUgfAp8IEZvdW5kYXRpb25zIG9mIEN5YmVyc2VjdXJpdHkgfCBHb29nbGUgfCDinIUgfAp8IFZpZGVvIEVkaXRpbmcgfCBUaGUgSCBVbml2ZXJzaXR5IHwg4pyFIHwKfCBTb2Z0IFNraWxscyBUcmFpbmluZyB8IElDTVBEIC8gT0VDIHwg4pyFIHwKCi0tLQoKIyMg8J+TiiBTWVNURU0gRElBR05PU1RJQ1MKCjxkaXYgYWxpZ249ImNlbnRlciI+CgohW1N0YXRzXShodHRwczovL2dpdGh1Yi1yZWFkbWUtc3RhdHMudmVyY2VsLmFwcC9hcGk/dXNlcm5hbWU9Zm91emtoYW4tYWxwaGEmc2hvd19pY29ucz10cnVlJnRoZW1lPXRva3lvbmlnaHQmaGlkZV9ib3JkZXI9dHJ1ZSZiZ19jb2xvcj0wZDExMTcmdGl0bGVfY29sb3I9MDBmZjg4Jmljb25fY29sb3I9MDBmZjg4JnRleHRfY29sb3I9ZmZmZmZmKQoKIVtUb3AgTGFuZ3NdKGh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy52ZXJjZWwuYXBwL2FwaS90b3AtbGFuZ3MvP3VzZXJuYW1lPWZvdXpraGFuLWFscGhhJmxheW91dD1jb21wYWN0JnRoZW1lPXRva3lvbmlnaHQmaGlkZV9ib3JkZXI9dHJ1ZSZiZ19jb2xvcj0wZDExMTcmdGl0bGVfY29sb3I9MDBmZjg4JnRleHRfY29sb3I9ZmZmZmZmKQoKIVtTdHJlYWtdKGh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdHJlYWstc3RhdHMuaGVyb2t1YXBwLmNvbS8/dXNlcj1mb3V6a2hhbi1hbHBoYSZ0aGVtZT10b2t5b25pZ2h0JmhpZGVfYm9yZGVyPXRydWUmYmFja2dyb3VuZD0wZDExMTcmcmluZz0wMGZmODgmZmlyZT0wMGZmODgmY3VyclN0cmVha0xhYmVsPTAwZmY4OCkKCiFbVHJvcGhpZXNdKGh0dHBzOi8vZ2l0aHViLXByb2ZpbGUtdHJvcGh5LnZlcmNlbC5hcHAvP3VzZXJuYW1lPWZvdXpraGFuLWFscGhhJnRoZW1lPXRva3lvbmlnaHQmbm8tZnJhbWU9dHJ1ZSZtYXJnaW4tdz04JnJvdz0xKQoKPC9kaXY+CgotLS0KCjxkaXYgYWxpZ249ImNlbnRlciI+CgohW1NuYWtlXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZm91emtoYW4tYWxwaGEvZm91emtoYW4tYWxwaGEvb3V0cHV0L2dpdGh1Yi1jb250cmlidXRpb24tZ3JpZC1zbmFrZS1kYXJrLnN2ZykKCj4gKiJTaGlwIGZhc3QuIEJyZWFrIHRoaW5ncy4gTGVhcm4gZmFzdGVyLiIqIOKAlCBgZm91el9jb3JlX2VuZ2luZWAKCiMjIyDwn5OhIFNFQ1VSRSBDT01NVU5JQ0FUSU9OUwoKWyFbTGlua2VkSW5dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTGlua2VkSW4tMEE2NkMyP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1saW5rZWRpbiZsb2dvQ29sb3I9d2hpdGUpXShodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vZm91ei1raGFuLykKWyFbR21haWxdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvR21haWwtRDE0ODM2P3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1nbWFpbCZsb2dvQ29sb3I9d2hpdGUpXShtYWlsdG86Zm91emtoYW5zaGFpcndhbmlAZ21haWwuY29tKQpbIVtZb3VUdWJlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1lvdVR1YmUtRkYwMDAwP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz15b3V0dWJlJmxvZ29Db2xvcj13aGl0ZSldKGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0BBbmF0b215QXJjaGl0ZWN0KQoKPGltZyBzcmM9Imh0dHBzOi8vY2Fwc3VsZS1yZW5kZXIudmVyY2VsLmFwcC9hcGk/dHlwZT13YXZpbmcmY29sb3I9MDowMGNjZmYsNTA6MDBmZjg4LDEwMDowZDExMTcmaGVpZ2h0PTE0MCZzZWN0aW9uPWZvb3RlciZ0ZXh0PUFMTCUyMFNZU1RFTVMlMjBOT01JTkFMJmZvbnRTaXplPTIyJmZvbnRDb2xvcj1mZmZmZmYmYW5pbWF0aW9uPWZhZGVJbiIgLz4KCjwvZGl2Pgo=
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff88,100:00ccff&height=220&section=header&text=MUHAMMAD%20FOUZ%20KHAN&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20Holographic%20Workspace&descAlignY=58&descSize=18" />
+
+### FOUZ_CORE_ENGINE_V1.17 — STATUS: ONLINE 🟢
+
+![Profile Views](https://komarev.com/ghpvc/?username=fouzkhan-alpha&color=00ff88&style=flat-square&label=PROFILE+SCANS)
+![Followers](https://img.shields.io/github/followers/fouzkhan-alpha?color=00ff88&style=flat-square&label=FOLLOWERS)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2800&pause=1000&color=00FF88&center=true&vCenter=true&width=650&lines=compiling_agentic_modules()...;injecting_graphic_orbs_interface...;loading_neural_subsystems...;SYSTEM+COMPILING+SUCCESSFULLY;welcome_to_the_cognitive_core)](https://git.io/typing-svg)
+
+```bash
+> whoami
+muhammad_fouz_khan --engineer --builder --creator
+
+> cat mission.txt
+"Supercharging Human Workflows through Cognitive Automations"
+```
+
+</div>
+
+---
+
+## 🧠 COGNITIVE CORE
+
+`SYS_ADMIN` — AI Engineer building hyper-optimized autonomous agents that automate complex developer and business workflows. LLMs, neural integrations, generative models — production-grade architectures.
+
+🎓 **BS Artificial Intelligence** — University of Layyah (2025–2029)
+📍 Layyah, Punjab, Pakistan &nbsp;|&nbsp; 🎬 Video Editor &nbsp;|&nbsp; 📈 Crypto Trader
+
+```yaml
+🔭 working_on:  Ultron Downloader v5.x — self-healing multi-platform engine
+🌱 learning:    Advanced LLM Agents · RAG pipelines · Vector Databases
+👯 open_to:     AI/ML collaborations & internships
+💬 ask_me:      Python · AI Agents · Video Editing · Arch Linux
+⚡ fun_fact:    Built a 200-page Arch Linux book for a friend in one night
+🎯 goal_2026:   Ship production AI tools + grow Anatomy Architect to 10K subs
+```
+
+---
+
+## ⚡ CORE COMPETENCIES
+
+```
+Artificial Intelligence       92%  ██████████░░
+Machine Learning              88%  █████████░░░
+Agentic Frameworks            95%  ██████████░░
+Python Engineering            94%  ██████████░░
+Neural Networks               85%  █████████░░░
+NLP                           90%  ██████████░░
+LLM Fine-Tuning & Prompting   96%  ██████████░░
+TypeScript / React            85%  █████████░░░
+API Design & Integration      90%  ██████████░░
+Vector Databases              87%  █████████░░░
+Video Editing & Motion        90%  ██████████░░
+```
+
+---
+
+## 🛠️ ARSENAL
+
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**AI / ML**
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+**Tools**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+**Creative**
+![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)
+![After Effects](https://img.shields.io/badge/After_Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=white)
+
+---
+
+## 🚀 DEPLOYED MODULES
+
+### 🟢 Ultron Downloader
+Multi-platform video downloader (YouTube, TikTok, Instagram) with a **self-healing download engine** — aggressive format fallback, SQLite creator system, bulk scheduler, bilingual UI.
+<br>`Python` `PySide6` `yt-dlp` `SQLite` `Aria2c` — **v5.4 SHIPPED** 📦
+
+### 🟡 ANPR Gate Access System
+Automatic Number Plate + Make/Model Recognition for University of Layyah — CPU-only YOLO-nano + OpenVINO pipeline.
+<br>`Python` `OpenVINO` `YOLO` `OpenCV` — **IN DEVELOPMENT** 🔧
+
+### 🔴 Anatomy Architect
+Educational YouTube channel — anatomy Shorts with AI visuals, motion editing and voiceovers. Automated production pipeline.
+<br>`Python` `FFmpeg` `TTS` `AI Media` — **LIVE** ▶️
+
+---
+
+## 📜 VERIFIED SKILLSETS
+
+| Certificate | Issuer | Result |
+|-------------|--------|--------|
+| Claude Code in Action | Anthropic | ✅ |
+| AI Fluency for Students | Anthropic | ✅ |
+| CS105 — Intro to Python | Saylor Academy | 96.84% |
+| Foundations of Cybersecurity | Google | ✅ |
+| Video Editing | The H University | ✅ |
+| Soft Skills Training | ICMPD / OEC | ✅ |
+
+---
+
+## 📊 SYSTEM DIAGNOSTICS
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=fouzkhan-alpha&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=ffffff)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fouzkhan-alpha&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=ffffff)
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=fouzkhan-alpha&theme=tokyonight&hide_border=true&background=0d1117&ring=00ff88&fire=00ff88&currStreakLabel=00ff88)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=fouzkhan-alpha&theme=tokyonight&no-frame=true&margin-w=8&row=1)
+
+</div>
+
+---
+
+<div align="center">
+
+![Snake](https://raw.githubusercontent.com/fouzkhan-alpha/fouzkhan-alpha/output/github-contribution-grid-snake-dark.svg)
+
+> *"Ship fast. Break things. Learn faster."* — `fouz_core_engine`
+
+### 📡 SECURE COMMUNICATIONS
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fouz-khan/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fouzkhanshairwani@gmail.com)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AnatomyArchitect)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ccff,50:00ff88,100:0d1117&height=140&section=footer&text=ALL%20SYSTEMS%20NOMINAL&fontSize=22&fontColor=ffffff&animation=fadeIn" />
+
+</div>
