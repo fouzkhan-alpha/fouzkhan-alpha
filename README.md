@@ -81,12 +81,12 @@ I'm an **AI Engineer** who prefers shipping products over just writing code. I b
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fouzkhan-alpha&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fouzkhan-alpha&theme=tokyonight&hide_border=true&background=0d1117" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=fouzkhan-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fouzkhan-dev&theme=tokyonight&hide_border=true&background=0d1117" height="170" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/fouzkhan-alpha/fouzkhan-alpha/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+  <img src="https://raw.githubusercontent.com/fouzkhan-dev/fouzkhan-dev/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 </div>
 
 ---
