@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/portrait.svg?v=2" alt="Muhammad Fouz Khan — Dot-Matrix Portrait" width="340" />
+  <img src="assets/portrait.svg?v=3" alt="Muhammad Fouz Khan — Dot-Matrix Portrait" width="340" />
 
   <br /><br />
 
