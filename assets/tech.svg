@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%" height="auto">
+<defs><style>
+@keyframes cardIn { 0% { opacity: 0; transform: translateY(16px); } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes iconFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.card { opacity: 0; animation: cardIn 0.7s cubic-bezier(0.16,1,0.3,1) forwards; }
+.ticon { animation: iconFloat 3s ease-in-out infinite; }
+</style>
+<linearGradient id="techCard" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#131c2a"/><stop offset="1" stop-color="#0d1420"/>
+</linearGradient>
+<linearGradient id="techAccent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#00ff88"/><stop offset="1" stop-color="#58a6ff"/>
+</linearGradient>
+</defs>
+<rect width="1000" height="380" rx="18" fill="#0d1117"/>
+<rect width="1000" height="380" rx="18" fill="none" stroke="#1c2a3a" stroke-width="1.5"/>
+<text x="35" y="42" font-family="monospace" font-size="16" fill="#8b949e">~/</text>
+<text x="65" y="42" font-family="monospace" font-size="16" fill="#ffffff" font-weight="bold">Core Tooling &amp; Technologies</text>
+<g class="card" style="animation-delay:0.10s">
+<rect x="35" y="65" width="218" height="232" rx="14" fill="url(#techCard)" stroke="#1c2a3a" stroke-width="1.5"/>
+<rect x="35" y="65" width="218" height="5" rx="2.5" fill="#00ff88"/>
+<text x="53" y="100" font-family="monospace" font-size="15" font-weight="bold" fill="#ffffff">🤖 AI & Python</text>
+<circle cx="63" cy="127" r="5" fill="#00ff88" class="ticon" style="animation-delay:0.0s"/>
+<text x="80" y="132" font-family="monospace" font-size="13" fill="#c9d4e0">Python</text>
+<circle cx="63" cy="165" r="5" fill="#00ff88" class="ticon" style="animation-delay:0.3s"/>
+<text x="80" y="170" font-family="monospace" font-size="13" fill="#c9d4e0">PyTorch</text>
+<circle cx="63" cy="203" r="5" fill="#00ff88" class="ticon" style="animation-delay:0.6s"/>
+<text x="80" y="208" font-family="monospace" font-size="13" fill="#c9d4e0">TensorFlow</text>
+<circle cx="63" cy="241" r="5" fill="#00ff88" class="ticon" style="animation-delay:0.9s"/>
+<text x="80" y="246" font-family="monospace" font-size="13" fill="#c9d4e0">OpenCV</text>
+</g>
+<g class="card" style="animation-delay:0.25s">
+<rect x="273" y="65" width="218" height="232" rx="14" fill="url(#techCard)" stroke="#1c2a3a" stroke-width="1.5"/>
+<rect x="273" y="65" width="218" height="5" rx="2.5" fill="#58a6ff"/>
+<text x="291" y="100" font-family="monospace" font-size="15" font-weight="bold" fill="#ffffff">🌐 Web Dev</text>
+<circle cx="301" cy="127" r="5" fill="#58a6ff" class="ticon" style="animation-delay:0.0s"/>
+<text x="318" y="132" font-family="monospace" font-size="13" fill="#c9d4e0">JavaScript</text>
+<circle cx="301" cy="165" r="5" fill="#58a6ff" class="ticon" style="animation-delay:0.3s"/>
+<text x="318" y="170" font-family="monospace" font-size="13" fill="#c9d4e0">TypeScript</text>
+<circle cx="301" cy="203" r="5" fill="#58a6ff" class="ticon" style="animation-delay:0.6s"/>
+<text x="318" y="208" font-family="monospace" font-size="13" fill="#c9d4e0">React</text>
+<circle cx="301" cy="241" r="5" fill="#58a6ff" class="ticon" style="animation-delay:0.9s"/>
+<text x="318" y="246" font-family="monospace" font-size="13" fill="#c9d4e0">Tailwind</text>
+</g>
+<g class="card" style="animation-delay:0.40s">
+<rect x="511" y="65" width="218" height="232" rx="14" fill="url(#techCard)" stroke="#1c2a3a" stroke-width="1.5"/>
+<rect x="511" y="65" width="218" height="5" rx="2.5" fill="#ff6b6b"/>
+<text x="529" y="100" font-family="monospace" font-size="15" font-weight="bold" fill="#ffffff">🛠️ Tools</text>
+<circle cx="539" cy="127" r="5" fill="#ff6b6b" class="ticon" style="animation-delay:0.0s"/>
+<text x="556" y="132" font-family="monospace" font-size="13" fill="#c9d4e0">Git</text>
+<circle cx="539" cy="165" r="5" fill="#ff6b6b" class="ticon" style="animation-delay:0.3s"/>
+<text x="556" y="170" font-family="monospace" font-size="13" fill="#c9d4e0">Docker</text>
+<circle cx="539" cy="203" r="5" fill="#ff6b6b" class="ticon" style="animation-delay:0.6s"/>
+<text x="556" y="208" font-family="monospace" font-size="13" fill="#c9d4e0">Linux</text>
+<circle cx="539" cy="241" r="5" fill="#ff6b6b" class="ticon" style="animation-delay:0.9s"/>
+<text x="556" y="246" font-family="monospace" font-size="13" fill="#c9d4e0">VS Code</text>
+</g>
+<g class="card" style="animation-delay:0.55s">
+<rect x="749" y="65" width="218" height="156" rx="14" fill="url(#techCard)" stroke="#1c2a3a" stroke-width="1.5"/>
+<rect x="749" y="65" width="218" height="5" rx="2.5" fill="#c678dd"/>
+<text x="767" y="100" font-family="monospace" font-size="15" font-weight="bold" fill="#ffffff">🎬 Creative</text>
+<circle cx="777" cy="127" r="5" fill="#c678dd" class="ticon" style="animation-delay:0.0s"/>
+<text x="794" y="132" font-family="monospace" font-size="13" fill="#c9d4e0">After Effects</text>
+<circle cx="777" cy="165" r="5" fill="#c678dd" class="ticon" style="animation-delay:0.3s"/>
+<text x="794" y="170" font-family="monospace" font-size="13" fill="#c9d4e0">Premiere Pro</text>
+</g>
+</svg>

@@ -1,59 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 430" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" width="100%" height="auto">
 <defs><style>
 @keyframes cardIn { 0% { opacity: 0; transform: translateY(14px); } 100% { opacity: 1; transform: translateY(0); } }
-@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
 .card { opacity: 0; animation: cardIn 0.7s cubic-bezier(0.16,1,0.3,1) forwards; }
-.live-dot { animation: pulse 2s ease-in-out infinite; }
+.live { animation: pulse 2s ease-in-out infinite; }
 </style>
-<linearGradient id="bentoBg" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#111a26"/><stop offset="1" stop-color="#0d1420"/>
+<linearGradient id="bentoBg2" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#141d2c"/><stop offset="1" stop-color="#0d1420"/>
 </linearGradient>
-<linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="accentBar2" x1="0" y1="0" x2="1" y2="0">
 <stop offset="0" stop-color="#00ff88"/><stop offset="1" stop-color="#58a6ff"/>
 </linearGradient>
 </defs>
-<rect width="940" height="430" rx="16" fill="#0d1117"/>
-<text x="30" y="38" font-family="monospace" font-size="15" fill="#8b949e">~/</text>
-<text x="60" y="38" font-family="monospace" font-size="15" fill="#ffffff">Engineering Showcase &amp; Performance</text>
-<text x="60" y="60" font-family="monospace" font-size="12" fill="#5a6a7a">Production Output &#8226; Focus Areas &#8226; Milestones</text>
+<rect width="1000" height="460" rx="18" fill="#0d1117"/>
+<rect width="1000" height="460" rx="18" fill="none" stroke="#1c2a3a" stroke-width="1.5"/>
+<text x="35" y="42" font-family="monospace" font-size="16" fill="#8b949e">~/</text>
+<text x="65" y="42" font-family="monospace" font-size="16" fill="#ffffff" font-weight="bold">Engineering Showcase &amp; Performance</text>
+<text x="65" y="64" font-family="monospace" font-size="12" fill="#5a6a7a">Production Output &#8226; Focus Areas &#8226; Milestones</text>
 <g class="card" style="animation-delay:0.10s">
-<rect x="30" y="80" width="580" height="160" rx="12" fill="url(#bentoBg)" stroke="#1c2a3a" stroke-width="1.5"/>
-<rect x="30" y="80" width="4" height="160" rx="2" fill="url(#accentBar)"/>
-<text x="50" y="112" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">&#128640; Production Output &amp; Focus</text>
-<text x="50" y="140" font-family="monospace" font-size="12" fill="#00ff88">&#9889; Ultron Downloader v5.4 — self-healing engine</text>
-<text x="50" y="166" font-family="monospace" font-size="12" fill="#8b949e">&#128065; ANPR Gate System — YOLO + OpenVINO</text>
-<text x="50" y="192" font-family="monospace" font-size="12" fill="#8b949e">&#127916; Anatomy Architect — AI YouTube pipeline</text>
-<text x="50" y="218" font-family="monospace" font-size="12" fill="#8b949e">&#128218; 200-page Arch Linux book — authored</text>
+<rect x="35" y="85" width="600" height="175" rx="14" fill="url(#bentoBg2)" stroke="#233446" stroke-width="1.5"/>
+<rect x="35" y="85" width="5" height="175" rx="2.5" fill="url(#accentBar2)"/>
+<text x="57" y="121" font-family="monospace" font-size="16" font-weight="bold" fill="#ffffff">&#128640; Production Output</text> <circle cx="611" cy="113" r="6" fill="#00ff88" class="live"/>
+<text x="57" y="153" font-family="monospace" font-size="14" fill="#00ff88">&#9889; Ultron Downloader v5.4 — self-healing engine</text>
+<text x="57" y="183" font-family="monospace" font-size="14" fill="#c9d4e0">&#128065; ANPR Gate System — YOLO + OpenVINO</text>
+<text x="57" y="213" font-family="monospace" font-size="14" fill="#c9d4e0">&#127916; Anatomy Architect — AI YouTube pipeline</text>
+<text x="57" y="243" font-family="monospace" font-size="14" fill="#c9d4e0">&#128218; 200-page Arch Linux book — authored</text>
 </g>
 <g class="card" style="animation-delay:0.25s">
-<rect x="630" y="80" width="280" height="160" rx="12" fill="url(#bentoBg)" stroke="#1c2a3a" stroke-width="1.5"/>
-<rect x="630" y="80" width="4" height="160" rx="2" fill="url(#accentBar)"/>
-<text x="650" y="112" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">&#9889; Current Focus</text>
-<text x="650" y="140" font-family="monospace" font-size="12" fill="#00ff88">&#9679; LLM Agents &amp; RAG</text>
-<text x="650" y="166" font-family="monospace" font-size="12" fill="#8b949e">&#9679; Python Automation</text>
-<text x="650" y="192" font-family="monospace" font-size="12" fill="#8b949e">&#9679; Computer Vision</text>
+<rect x="655" y="85" width="310" height="175" rx="14" fill="url(#bentoBg2)" stroke="#233446" stroke-width="1.5"/>
+<rect x="655" y="85" width="5" height="175" rx="2.5" fill="url(#accentBar2)"/>
+<text x="677" y="121" font-family="monospace" font-size="16" font-weight="bold" fill="#ffffff">&#9889; Focus</text>
+<text x="677" y="153" font-family="monospace" font-size="14" fill="#00ff88">&#9679; LLM Agents &amp; RAG</text>
+<text x="677" y="183" font-family="monospace" font-size="14" fill="#c9d4e0">&#9679; Python Automation</text>
+<text x="677" y="213" font-family="monospace" font-size="14" fill="#c9d4e0">&#9679; Computer Vision</text>
 </g>
 <g class="card" style="animation-delay:0.40s">
-<rect x="30" y="260" width="290" height="140" rx="12" fill="url(#bentoBg)" stroke="#1c2a3a" stroke-width="1.5"/>
-<rect x="30" y="260" width="4" height="140" rx="2" fill="url(#accentBar)"/>
-<text x="50" y="292" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">&#127942; Milestones</text>
-<text x="50" y="320" font-family="monospace" font-size="12" fill="#00ff88">6x Certified (Anthropic, Google)</text>
-<text x="50" y="346" font-family="monospace" font-size="12" fill="#8b949e">96.84% — Saylor Python</text>
-<text x="50" y="372" font-family="monospace" font-size="12" fill="#8b949e">Shipped production tool</text>
+<rect x="35" y="280" width="310" height="145" rx="14" fill="url(#bentoBg2)" stroke="#233446" stroke-width="1.5"/>
+<rect x="35" y="280" width="5" height="145" rx="2.5" fill="url(#accentBar2)"/>
+<text x="57" y="316" font-family="monospace" font-size="16" font-weight="bold" fill="#ffffff">&#127942; Milestones</text>
+<text x="57" y="348" font-family="monospace" font-size="14" fill="#00ff88">6x Certified</text>
+<text x="57" y="378" font-family="monospace" font-size="14" fill="#c9d4e0">96.84% Saylor Python</text>
+<text x="57" y="408" font-family="monospace" font-size="14" fill="#c9d4e0">Shipped prod. tool</text>
 </g>
 <g class="card" style="animation-delay:0.55s">
-<rect x="340" y="260" width="290" height="140" rx="12" fill="url(#bentoBg)" stroke="#1c2a3a" stroke-width="1.5"/>
-<rect x="340" y="260" width="4" height="140" rx="2" fill="url(#accentBar)"/>
-<text x="360" y="292" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">&#127919; Mission 2026</text>
-<text x="360" y="320" font-family="monospace" font-size="12" fill="#8b949e">AI Internship secured</text>
-<text x="360" y="346" font-family="monospace" font-size="12" fill="#8b949e">10K YouTube subs</text>
-<text x="360" y="372" font-family="monospace" font-size="12" fill="#8b949e">100&#9733; open-source project</text>
+<rect x="365" y="280" width="310" height="145" rx="14" fill="url(#bentoBg2)" stroke="#233446" stroke-width="1.5"/>
+<rect x="365" y="280" width="5" height="145" rx="2.5" fill="url(#accentBar2)"/>
+<text x="387" y="316" font-family="monospace" font-size="16" font-weight="bold" fill="#ffffff">&#127919; Mission 2026</text>
+<text x="387" y="348" font-family="monospace" font-size="14" fill="#c9d4e0">AI Internship</text>
+<text x="387" y="378" font-family="monospace" font-size="14" fill="#c9d4e0">10K YouTube subs</text>
+<text x="387" y="408" font-family="monospace" font-size="14" fill="#c9d4e0">100&#9733; OSS project</text>
 </g>
 <g class="card" style="animation-delay:0.70s">
-<rect x="650" y="260" width="260" height="140" rx="12" fill="url(#bentoBg)" stroke="#1c2a3a" stroke-width="1.5"/>
-<rect x="650" y="260" width="4" height="140" rx="2" fill="url(#accentBar)"/>
-<text x="670" y="292" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">&#128239; Philosophy</text>
-<text x="670" y="320" font-family="monospace" font-size="12" fill="#ffffff">Ship fast. Break things.</text>
-<text x="670" y="346" font-family="monospace" font-size="12" fill="#00ff88">Learn faster. Repeat.</text>
+<rect x="695" y="280" width="270" height="145" rx="14" fill="url(#bentoBg2)" stroke="#233446" stroke-width="1.5"/>
+<rect x="695" y="280" width="5" height="145" rx="2.5" fill="url(#accentBar2)"/>
+<text x="717" y="316" font-family="monospace" font-size="16" font-weight="bold" fill="#ffffff">&#128239; Motto</text>
+<text x="717" y="348" font-family="monospace" font-size="14" fill="#ffffff">Ship fast.</text>
+<text x="717" y="378" font-family="monospace" font-size="14" fill="#ffffff">Break things.</text>
+<text x="717" y="408" font-family="monospace" font-size="14" fill="#00ff88">Learn faster.</text>
 </g>
 </svg>
