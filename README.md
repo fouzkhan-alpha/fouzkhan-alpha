@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,30&height=220&section=header&text=MUHAMMAD%20FOUZ%20KHAN&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Digital%20Creator&descAlignY=58&descSize=17" />
+<img src="https://raw.githubusercontent.com/fouzkhan-alpha/fouzkhan-alpha/main/header.svg" alt="Muhammad Fouz Khan — animated header" />
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Welcome+to+my+digital+universe+👋;AI+%2F+ML+Engineer+🚀;Python+Developer+🐍;Automation+Architect+⚡;Video+Editor+🎬;Building+Ultron+Downloader+🔥;Turning+coffee+into+code+☕)](https://git.io/typing-svg)
 
@@ -241,7 +241,7 @@ Educational YouTube channel — anatomy Shorts with AI visuals, motion editing &
 [![Portfolio](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://fouz-porfolio.vercel.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/f0uzkhan/)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,30&height=130&section=footer&animation=twinkling" />
+<img src="https://raw.githubusercontent.com/fouzkhan-alpha/fouzkhan-alpha/main/footer.svg" alt="Thanks for visiting" />
 
 *⚡ Designed & engineered by Fouz — no templates were harmed ⚡*
 
