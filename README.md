@@ -73,6 +73,18 @@ I'm an **AI Engineer** who prefers shipping products over just writing code. I b
   <img src="https://raw.githubusercontent.com/fouzkhan-dev/fouzkhan-dev/main/divider.svg" width="100%" />
 </div>
 
+### 🚀 Projects
+
+<div align="center">
+
+**⚡ Ultron Downloader** &nbsp;•&nbsp; **🔍 ANPR Gate System** &nbsp;•&nbsp; **🎬 Anatomy Architect** &nbsp;•&nbsp; **📚 Arch Linux Guide**
+
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/fouzkhan-dev/fouzkhan-dev/main/divider.svg" width="100%" />
+</div>
+
 ### 📡 Technical Capability & Skills Radar
 
 <div align="center">
