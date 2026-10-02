@@ -96,14 +96,7 @@ I'm an **AI Engineer** who prefers shipping products over just writing code. I b
 ### 🛠️ Core Tooling & Technologies
 
 <div align="center">
-
-| **Category** | **Technologies** |
-| :--- | :--- |
-| **AI & Python** | <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&theme=dark" /> |
-| **Web Development** | <img src="https://skillicons.dev/icons?i=javascript,typescript,react,tailwind&theme=dark" /> |
-| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker&theme=dark" /> |
-| **Creative** | <img src="https://skillicons.dev/icons?i=ae,pr&theme=dark" /> |
-
+  <img src="assets/tech.svg" alt="Core Tooling & Technologies" width="100%" />
 </div>
 
 <div align="center">
