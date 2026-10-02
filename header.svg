@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.5" stop-color="#0a1a2e"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88">
+        <animate attributeName="stop-color" values="#00ff88;#58a6ff;#00ff88" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#00ff88;#58a6ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00ff88">
+        <animate attributeName="stop-color" values="#00ff88;#58a6ff;#00ff88" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="orbGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#1c2a3a" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <ellipse cx="240" cy="110" rx="190" ry="120" fill="url(#orbGreen)">
+    <animate attributeName="cx" values="240;330;240" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="110;80;110" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="960" cy="230" rx="210" ry="130" fill="url(#orbBlue)">
+    <animate attributeName="cx" values="960;870;960" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="230;260;230" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="600" cy="330" rx="260" ry="90" fill="url(#orbGreen)" opacity="0.5">
+    <animate attributeName="cx" values="600;680;600" dur="17s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g fill="#00ff88">
+    <circle cx="90" cy="320" r="3" opacity="0.8">
+      <animate attributeName="cy" values="320;40" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="330" r="2" opacity="0.6">
+      <animate attributeName="cy" values="330;60" dur="9s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="9s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="320" r="2.5" opacity="0.7" fill="#58a6ff">
+      <animate attributeName="cy" values="320;50" dur="8s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="8s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="480" cy="330" r="3" opacity="0.8">
+      <animate attributeName="cy" values="330;45" dur="10s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="10s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="320" r="2" opacity="0.6" fill="#58a6ff">
+      <animate attributeName="cy" values="320;55" dur="7.5s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="7.5s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="330" r="2.5" opacity="0.7">
+      <animate attributeName="cy" values="330;50" dur="8.5s" begin="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="8.5s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="320" r="3" opacity="0.8" fill="#58a6ff">
+      <animate attributeName="cy" values="320;40" dur="9.5s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="9.5s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="330" r="2" opacity="0.6">
+      <animate attributeName="cy" values="330;60" dur="7s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="7s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1130" cy="320" r="2.5" opacity="0.7" fill="#58a6ff">
+      <animate attributeName="cy" values="320;50" dur="8s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="8s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="'Courier New', Courier, monospace" text-anchor="middle">
+    <text x="600" y="60" font-size="20" fill="#00ff88" opacity="0.9" letter-spacing="4">// FOUZ_CORE_ENGINE v1.17 — ONLINE
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="165" font-size="62" font-weight="bold" fill="url(#textGrad)" filter="url(#glow)" letter-spacing="6">MUHAMMAD FOUZ KHAN</text>
+    <text x="600" y="215" font-size="21" fill="#8b949e" letter-spacing="8">AI ENGINEER &#8226; PYTHON DEVELOPER &#8226; CREATOR</text>
+    <text x="600" y="265" font-size="18" fill="#00ff88">&gt; building_the_future --one_commit_at_a_time
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g stroke="#00ff88" stroke-width="1.5" opacity="0.5">
+    <line x1="60" y1="300" x2="60" y2="330"/>
+    <line x1="45" y1="315" x2="75" y2="315"/>
+    <line x1="1140" y1="300" x2="1140" y2="330"/>
+    <line x1="1125" y1="315" x2="1155" y2="315"/>
+  </g>
+
+  <rect x="0" y="354" width="1200" height="3" fill="#00ff88" opacity="0.35"/>
+  <rect x="-140" y="351" width="140" height="8" fill="#00ff88" filter="url(#glow)" opacity="0.9">
+    <animate attributeName="x" values="-140;1200" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
